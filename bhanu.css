@@ -1,0 +1,53 @@
+.heading{
+    margin:0px auto;
+    padding:10px;
+    background-color: rgb(3, 72, 122);
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+
+}
+body{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+.choices{
+    display:flex;
+    justify-content: center;
+    gap:3rem;
+    align-items: center;
+    margin-top:5rem;
+}
+img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+img:hover{
+    opacity:0.5;
+    cursor:pointer;
+    background-color: black;
+}
+.score-board{
+    display:flex;
+    justify-content: center;
+    gap:5rem;
+    align-items: center;
+    font-size: 3rem;
+    margin-top:3rem;
+
+}
+#user-score,#comp-score{
+    font-size:4rem
+}
+#msg{
+    background-color: black;
+    color:white;
+    font-size: 2rem;
+    display:inline;
+    padding:1rem;
+    border-radius: 10px;
+
+}
